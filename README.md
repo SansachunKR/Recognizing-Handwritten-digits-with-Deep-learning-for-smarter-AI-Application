@@ -79,3 +79,7 @@ For best results:
 1. Add actual screenshots/GIFs in an `/assets` folder
 2. Replace placeholder URLs with your actual project links
 3. Update model metrics with your real evaluation scores
+
+import pandas as pd
+df = pd.read_csv("mnist_train.csv")
+df.head()
